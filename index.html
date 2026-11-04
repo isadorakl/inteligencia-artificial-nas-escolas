@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Uma história sobre IA</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="caixa-principal">
+    <section class="tela-inicial" id="tela-inicial">
+      <h1>Uma história sobre inteligência artificial</h1>
+      <p>
+        Suas escolhas vão construir uma história sobre como a inteligência
+        artificial pode fazer parte do futuro. Responda às perguntas e descubra
+        o caminho que você criou.
+      </p>
+      <button id="botao-iniciar">Iniciar</button>
+    </section>
+
+    <section class="jogo" id="jogo" hidden>
+      <p class="progresso" id="progresso"></p>
+      <div class="caixa-perguntas"></div>
+      <div class="caixa-alternativas"></div>
+    </section>
+
+    <section class="caixa-resultado" hidden>
+      <h2>A história de <span id="nome-resultado"></span></h2>
+      <p class="texto-resultado"></p>
+      <button id="botao-reiniciar">Jogar novamente</button>
+    </section>
+  </main>
+</body>
+</html>
+      
